@@ -15,3 +15,18 @@ new Vue({
         	}
         }
     });
+var temp = new Vue({
+    el: "#testing",
+    data:{
+        title : "old title"
+    },
+    methods:{
+        testss: function(){
+            setTimeout(function(){
+                this.title = "new title";
+                alert("safs");
+            }, 5000);
+        }
+    }
+});
+

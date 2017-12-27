@@ -18,3 +18,14 @@ new Vue({
 
     }
 });
+new Vue({
+    el:"#testing",
+    data:{
+        title: " old title"
+    },
+    methods:{
+        testss: function(){
+            this.title = "new title";
+        }
+    }
+});

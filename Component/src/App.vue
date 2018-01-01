@@ -4,28 +4,23 @@
         <hr>
         <app-body></app-body>
         <hr>
-        <div class="row">
-            <div class="col-xs-12">
-                <footer>
-                    <p>All Servers are managed here</p>
-                </footer>
-            </div>
-        </div>
+        <app-footer></app-footer>
     </div>
 </template>
 
 <script>
     import header from './header.vue'
     import body from './body.vue'
+    import footer from './footer.vue'
     export default{
         components:{
-            'app-header': header,
-            'app-body': body,
+          'app-header': header,
+          'app-body': body,
+          'app-footer': footer
 
         }
     }
 </script>
 
 <style>
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-2">
         <p v-if = "!server">Server Details are currently not updated</p>
         <p v-else> Server # {{ server.id}} and Server status: {{server.status}}</p>
         <hr>
@@ -28,7 +28,7 @@
         server:null
       }
     },
-    methods:{
+    methods: {
       ChangeToNormal(){
         this.server.status = 'Normal';
       }

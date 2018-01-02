@@ -1,2 +1,2 @@
 # vue.js-praticce
-Just learning Vue.js during break.
+Just learning Vue.js over the winter break.
